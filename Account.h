@@ -8,7 +8,7 @@
 #include "Stock.h"
 #include "Account.h"
 
-using namespace 
+using namespace std;
 
 /*
  * class Account manages a stock market client's account data:

@@ -239,7 +239,7 @@ void requestSell(int sockfd, Account &acc){
 
     }
 	else{
-		printf("===> Sale failed: Not enough shares\n")
+		printf("===> Sale failed: Not enough shares\n");
 	}
 	return;
 }
@@ -310,7 +310,7 @@ void requestLimitSell(int sockfd, Account &acc){
 			printf("Current share price did not meet limit \n");
 	}	
 	else{
-		printf("===> Sale failed: Not enough shares\n")
+		printf("===> Sale failed: Not enough shares\n");
 	}
 	return;
 }

@@ -74,7 +74,7 @@ bool Account::hasNumShares(string sym, int quant){
 		return (it->second.getNumShares() >= quant);
 }
 
-}
+//}  Extra Braces??
 
 void Account::recordPurchase(string name, string sym, int quant, double cps){
 	map <string, Stock>::iterator it;
@@ -115,7 +115,7 @@ void Account::recordSale(string sym, int quant, double cps){
 		// update account balance
 		this->balance += quant * cps;
 	}	
-
+}
 void Account::showAccountInfo(){
 	double value = 0.0;
 	cout.imbue(std::locale(""));
