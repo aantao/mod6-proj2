@@ -1,0 +1,4 @@
+175.42
+AZO,Autozone, 1564.53, 1
+AVB,AvalonBay Communities, 220.83, 10
+AVY,Avery Dennison, 210.35, 5
